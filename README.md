@@ -22,22 +22,21 @@ STAT-SKILL AI is a competency intelligence platform for **Government, Industry, 
 [![The Problem](https://img.shields.io/badge/The%20Problem-143326?style=flat-square)](#the-problem)
 [![Platform Approach](https://img.shields.io/badge/Platform%20Approach-143326?style=flat-square)](#platform-approach)
 [![Core Intelligence Engine](https://img.shields.io/badge/Core%20Intelligence%20Engine-143326?style=flat-square)](#core-intelligence-engine)
-
 [![Specialized Tracks](https://img.shields.io/badge/Specialized%20Tracks-0F766E?style=flat-square)](#specialized-tracks)
+
 [![Key Capabilities](https://img.shields.io/badge/Key%20Capabilities-0F766E?style=flat-square)](#key-capabilities)
 [![How It Works](https://img.shields.io/badge/How%20It%20Works-0F766E?style=flat-square)](#how-it-works)
 [![Document-to-Quiz Intelligence](https://img.shields.io/badge/Document--to--Quiz%20Intelligence-0F766E?style=flat-square)](#document-to-quiz-intelligence)
-
 [![Skill-Gap Intelligence](https://img.shields.io/badge/Skill--Gap%20Intelligence-374151?style=flat-square)](#skill-gap-intelligence)
 [![Platform Architecture](https://img.shields.io/badge/Platform%20Architecture-374151?style=flat-square)](#platform-architecture)
+
 [![Complete Repository Working Flow](https://img.shields.io/badge/Repository%20Working%20Flow-374151?style=flat-square)](#complete-repository-working-flow)
 [![Technology Stack](https://img.shields.io/badge/Technology%20Stack-374151?style=flat-square)](#technology-stack)
-
 [![Repository Structure](https://img.shields.io/badge/Repository%20Structure-4B5563?style=flat-square)](#repository-structure)
 [![Application Routes](https://img.shields.io/badge/Application%20Routes-4B5563?style=flat-square)](#application-routes)
 [![Getting Started](https://img.shields.io/badge/Getting%20Started-4B5563?style=flat-square)](#getting-started)
-[![Local API Access](https://img.shields.io/badge/Local%20API%20Access-4B5563?style=flat-square)](#local-api-access)
 
+[![Local API Access](https://img.shields.io/badge/Local%20API%20Access-4B5563?style=flat-square)](#local-api-access)
 [![Docker](https://img.shields.io/badge/Docker-6B7280?style=flat-square)](#docker)
 [![Testing & Build](https://img.shields.io/badge/Testing%20%26%20Build-6B7280?style=flat-square)](#testing--build)
 [![Deployment](https://img.shields.io/badge/Deployment-6B7280?style=flat-square)](#deployment)
@@ -47,7 +46,6 @@ STAT-SKILL AI is a competency intelligence platform for **Government, Industry, 
 [![Project Status](https://img.shields.io/badge/Project%20Status-6B7280?style=flat-square)](#project-status)
 [![Useful Links](https://img.shields.io/badge/Useful%20Links-6B7280?style=flat-square)](#useful-links)
 [![Contributing](https://img.shields.io/badge/Contributing-6B7280?style=flat-square)](#contributing)
-
 [![License](https://img.shields.io/badge/License-6B7280?style=flat-square)](#license)
 
 ---
