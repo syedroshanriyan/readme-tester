@@ -1,4 +1,4 @@
-# STAT-SKILL AI
+<h1 align="center">STAT-SKILL AI</h1>
 
 ### AI-Powered Competency Intelligence Platform
 
@@ -615,76 +615,70 @@ flowchart TB
 
 # 🔄 Complete Git Working Flow
 
-The following diagram represents the complete working flow of the STAT-SKILL AI repository, from the user-facing web experience through the API layer, application modules, data layer, and integrated intelligence services.
+The repository working flow is organized from the user-facing web layer to the API entry point, domain services, knowledge services, and shared persistence layer.
 
 ```mermaid
-flowchart TD
-    U["Learner or Admin"] --> W["Web Experience<br/>Next.js App<br/>layout.tsx"]
-    W --> C["API Client<br/>api.ts"]
-    C --> F["FastAPI Entry<br/>main.py"]
+flowchart TB
+    U["Learner / Admin"] --> W["Web Experience — Next.js App (layout.tsx)"]
+    W --> C["API Client — api.ts"]
+    C --> A["FastAPI Entry — main.py"]
 
-    subgraph CL["Competency and Learning"]
-        WF["Workforce Analytics<br/>router.py"]
-        CF["Competency Frameworks<br/>router.py"]
-        DA["Diagnostic Assessments<br/>router.py"]
-        SG["Skill-Gap Analysis<br/>service.py"]
-        TR["Training Recommendations<br/>service.py"]
-        CC["Course Catalogues<br/>providers.py"]
-        LP["Learning Pathways<br/>router.py"]
-        EV["Evidence Vault<br/>router.py"]
+    subgraph DOM["Domain Services"]
+        direction LR
+
+        subgraph CL["Competency & Learning"]
+            WF["Workforce Analytics — router.py"]
+            CF["Competency Frameworks — router.py"]
+            DA["Diagnostic Assessments — router.py"]
+            SG["Skill-Gap Analysis — service.py"]
+            TR["Training Recommendations — service.py"]
+            CC["Course Catalogues — providers.py"]
+            LP["Learning Pathways — router.py"]
+            EV["Evidence Vault — router.py"]
+        end
+
+        subgraph IG["Identity & Governance"]
+            AA["Admin & Audit — router.py"]
+            AU["Authentication — router.py"]
+            UP["User Profiles — router.py"]
+        end
+
+        subgraph KS["Knowledge Services"]
+            DI["Document Ingestion — router.py"]
+            DP["Document Parser — parser.py"]
+            LI["Legal Intelligence — router.py"]
+            QG["Quiz Generation — service.py"]
+            KA["Knowledge Assistant — service.py"]
+        end
     end
 
-    subgraph IG["Identity and Governance"]
-        AA["Admin and Audit<br/>router.py"]
-        AU["Authentication<br/>router.py"]
-        UP["User Profiles<br/>router.py"]
-    end
-
-    subgraph KS["Knowledge Services"]
-        DI["Document Ingestion<br/>router.py"]
-        DP["Document Parser<br/>parser.py"]
-        LI["Legal Intelligence<br/>router.py"]
-        QG["Quiz Generation<br/>service.py"]
-        KA["Knowledge Assistant<br/>service.py"]
-    end
-
-    F --> WF
-    F --> CF
-    F --> DA
-    F --> SG
-    F --> TR
-    F --> CC
-    F --> LP
-    F --> EV
-
-    F --> AA
-    F --> AU
-    F --> UP
-
-    F --> DI
-    F --> LI
-    F --> QG
+    A --> CL
+    A --> IG
+    A --> KS
 
     DI --> DP
     QG --> KA
 
-    WF --> DB[("Application Database<br/>database.py")]
-    CF --> DB
-    DA --> DB
-    SG --> DB
-    TR --> DB
-    CC --> DB
-    LP --> DB
-    EV --> DB
-    AA --> DB
-    AU --> DB
-    UP --> DB
-    DI --> DB
-    DP --> DB
-    LI --> DB
-    QG --> DB
-    KA --> DB
+    subgraph DATA["Persistence"]
+        DB[("Application Database — database.py")]
+    end
+
+    CL --> DB
+    IG --> DB
+    KS --> DB
 ```
+
+### Repository flow layers
+
+| Layer | Main responsibility | Repository components |
+|---|---|---|
+| **Web Experience** | User-facing application | Next.js, `layout.tsx` |
+| **API Access** | Frontend-to-backend communication | `api.ts` |
+| **API Entry** | Request routing and application startup | FastAPI, `main.py` |
+| **Competency & Learning** | Assessment, competency, gaps, recommendations, learning and evidence | `competencies/`, `assessments/`, `gaps/`, `recommendations/`, `learning_paths/`, `evidence/` |
+| **Identity & Governance** | Authentication, users, administration and auditing | `auth/`, `users/`, `admin/` |
+| **Knowledge Services** | Documents, parsing, legal intelligence, quizzes and assistant workflows | `documents/`, `legal/`, `quizzes/`, `assistant/` |
+| **Persistence** | Shared application data storage | `database.py` |
 
 ------------------------------------------------------------------------
 
