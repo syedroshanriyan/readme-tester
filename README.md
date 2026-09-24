@@ -18,37 +18,17 @@ STAT-SKILL AI is a competency intelligence platform for **Government, Industry, 
 
 ## Table of Contents
 
-[![Overview](https://img.shields.io/badge/Overview-5B9BD5?style=flat-square)](#overview)
-[![The Problem](https://img.shields.io/badge/The%20Problem-6B7280?style=flat-square)](#the-problem)
-[![Platform Approach](https://img.shields.io/badge/Platform%20Approach-5B9BD5?style=flat-square)](#platform-approach)
-[![Core Intelligence Engine](https://img.shields.io/badge/Core%20Intelligence%20Engine-6B7280?style=flat-square)](#core-intelligence-engine)
+[![Overview](https://img.shields.io/badge/Overview-8EC5FF?style=for-the-badge&labelColor=EAF4FF&logoColor=16324F)](#overview) [![The Problem](https://img.shields.io/badge/The%20Problem-8EC5FF?style=for-the-badge&labelColor=EAF4FF&logoColor=16324F)](#the-problem) [![Platform Approach](https://img.shields.io/badge/Platform%20Approach-8EC5FF?style=for-the-badge&labelColor=EAF4FF&logoColor=16324F)](#platform-approach) [![Core Intelligence Engine](https://img.shields.io/badge/Core%20Intelligence%20Engine-8EC5FF?style=for-the-badge&labelColor=EAF4FF&logoColor=16324F)](#core-intelligence-engine)
 
-[![Specialized Tracks](https://img.shields.io/badge/Specialized%20Tracks-22A06B?style=flat-square)](#specialized-tracks)
-[![Key Capabilities](https://img.shields.io/badge/Key%20Capabilities-5B9BD5?style=flat-square)](#key-capabilities)
-[![How It Works](https://img.shields.io/badge/How%20It%20Works-22A06B?style=flat-square)](#how-it-works)
-[![Document-to-Quiz Intelligence](https://img.shields.io/badge/Document--to--Quiz%20Intelligence-5B9BD5?style=flat-square)](#document-to-quiz-intelligence)
+[![Specialized Tracks](https://img.shields.io/badge/Specialized%20Tracks-67C7A5?style=for-the-badge&labelColor=EAF8F1&logoColor=164A36)](#specialized-tracks) [![Key Capabilities](https://img.shields.io/badge/Key%20Capabilities-67C7A5?style=for-the-badge&labelColor=EAF8F1&logoColor=164A36)](#key-capabilities) [![How It Works](https://img.shields.io/badge/How%20It%20Works-67C7A5?style=for-the-badge&labelColor=EAF8F1&logoColor=164A36)](#how-it-works) [![Document-to-Quiz Intelligence](https://img.shields.io/badge/Document--to--Quiz%20Intelligence-67C7A5?style=for-the-badge&labelColor=EAF8F1&logoColor=164A36)](#document-to-quiz-intelligence)
 
-[![Skill-Gap Intelligence](https://img.shields.io/badge/Skill--Gap%20Intelligence-22A06B?style=flat-square)](#skill-gap-intelligence)
-[![Platform Architecture](https://img.shields.io/badge/Platform%20Architecture-6B7280?style=flat-square)](#platform-architecture)
-[![Complete Repository Working Flow](https://img.shields.io/badge/Repository%20Working%20Flow-5B9BD5?style=flat-square)](#complete-repository-working-flow)
-[![Technology Stack](https://img.shields.io/badge/Technology%20Stack-22A06B?style=flat-square)](#technology-stack)
+[![Skill-Gap Intelligence](https://img.shields.io/badge/Skill--Gap%20Intelligence-A8AEB8?style=for-the-badge&labelColor=F1F3F5&logoColor=263238)](#skill-gap-intelligence) [![Platform Architecture](https://img.shields.io/badge/Platform%20Architecture-A8AEB8?style=for-the-badge&labelColor=F1F3F5&logoColor=263238)](#platform-architecture) [![Repository Working Flow](https://img.shields.io/badge/Repository%20Working%20Flow-A8AEB8?style=for-the-badge&labelColor=F1F3F5&logoColor=263238)](#complete-repository-working-flow) [![Technology Stack](https://img.shields.io/badge/Technology%20Stack-A8AEB8?style=for-the-badge&labelColor=F1F3F5&logoColor=263238)](#technology-stack)
 
-[![Repository Structure](https://img.shields.io/badge/Repository%20Structure-6B7280?style=flat-square)](#repository-structure)
-[![Application Routes](https://img.shields.io/badge/Application%20Routes-5B9BD5?style=flat-square)](#application-routes)
-[![Getting Started](https://img.shields.io/badge/Getting%20Started-22A06B?style=flat-square)](#getting-started)
-[![Local API Access](https://img.shields.io/badge/Local%20API%20Access-6B7280?style=flat-square)](#local-api-access)
+[![Repository Structure](https://img.shields.io/badge/Repository%20Structure-F4B860?style=for-the-badge&labelColor=FFF5E3&logoColor=5A3A00)](#repository-structure) [![Application Routes](https://img.shields.io/badge/Application%20Routes-F4B860?style=for-the-badge&labelColor=FFF5E3&logoColor=5A3A00)](#application-routes) [![Getting Started](https://img.shields.io/badge/Getting%20Started-F4B860?style=for-the-badge&labelColor=FFF5E3&logoColor=5A3A00)](#getting-started) [![Local API Access](https://img.shields.io/badge/Local%20API%20Access-F4B860?style=for-the-badge&labelColor=FFF5E3&logoColor=5A3A00)](#local-api-access)
 
-[![Docker](https://img.shields.io/badge/Docker-5B9BD5?style=flat-square)](#docker)
-[![Testing & Build](https://img.shields.io/badge/Testing%20%26%20Build-22A06B?style=flat-square)](#testing--build)
-[![Deployment](https://img.shields.io/badge/Deployment-5B9BD5?style=flat-square)](#deployment)
-[![Security & Data Handling](https://img.shields.io/badge/Security%20%26%20Data%20Handling-22A06B?style=flat-square)](#security--data-handling)
+[![Docker](https://img.shields.io/badge/Docker-C7B6F2?style=for-the-badge&labelColor=F4F0FF&logoColor=34215F)](#docker) [![Testing & Build](https://img.shields.io/badge/Testing%20%26%20Build-C7B6F2?style=for-the-badge&labelColor=F4F0FF&logoColor=34215F)](#testing--build) [![Deployment](https://img.shields.io/badge/Deployment-C7B6F2?style=for-the-badge&labelColor=F4F0FF&logoColor=34215F)](#deployment) [![Security & Data Handling](https://img.shields.io/badge/Security%20%26%20Data%20Handling-C7B6F2?style=for-the-badge&labelColor=F4F0FF&logoColor=34215F)](#security--data-handling)
 
-[![Design Principles](https://img.shields.io/badge/Design%20Principles-6B7280?style=flat-square)](#design-principles)
-[![Project Status](https://img.shields.io/badge/Project%20Status-5B9BD5?style=flat-square)](#project-status)
-[![Useful Links](https://img.shields.io/badge/Useful%20Links-22A06B?style=flat-square)](#useful-links)
-[![Contributing](https://img.shields.io/badge/Contributing-6B7280?style=flat-square)](#contributing)
-
-[![License](https://img.shields.io/badge/License-5B9BD5?style=flat-square)](#license)
+[![Design Principles](https://img.shields.io/badge/Design%20Principles-F28B82?style=for-the-badge&labelColor=FFF0EF&logoColor=5C1F1A)](#design-principles) [![Project Status](https://img.shields.io/badge/Project%20Status-F28B82?style=for-the-badge&labelColor=FFF0EF&logoColor=5C1F1A)](#project-status) [![Useful Links](https://img.shields.io/badge/Useful%20Links-F28B82?style=for-the-badge&labelColor=FFF0EF&logoColor=5C1F1A)](#useful-links) [![Contributing](https://img.shields.io/badge/Contributing-F28B82?style=for-the-badge&labelColor=FFF0EF&logoColor=5C1F1A)](#contributing) [![License](https://img.shields.io/badge/License-F28B82?style=for-the-badge&labelColor=FFF0EF&logoColor=5C1F1A)](#license)
 
 ---
 
