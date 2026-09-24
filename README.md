@@ -18,21 +18,51 @@ STAT-SKILL AI is a competency intelligence platform for **Government, Industry, 
 
 ## Table of Contents
 
-[![Overview](https://img.shields.io/badge/Overview-A9D6F5?style=flat-square)](#overview) [![The Problem](https://img.shields.io/badge/The%20Problem-A9D6F5?style=flat-square)](#the-problem) [![Platform Approach](https://img.shields.io/badge/Platform%20Approach-A9D6F5?style=flat-square)](#platform-approach) [![Core Intelligence Engine](https://img.shields.io/badge/Core%20Intelligence%20Engine-A9D6F5?style=flat-square)](#core-intelligence-engine)
+<table>
+<tr>
+<td bgcolor="#EEF6FF"><a href="#overview">Overview</a></td>
+<td bgcolor="#F3F4F6"><a href="#the-problem">The Problem</a></td>
+<td bgcolor="#EEF6FF"><a href="#platform-approach">Platform Approach</a></td>
+<td bgcolor="#F3F4F6"><a href="#core-intelligence-engine">Core Intelligence Engine</a></td>
+</tr>
+<tr>
+<td bgcolor="#F3F4F6"><a href="#specialized-tracks">Specialized Tracks</a></td>
+<td bgcolor="#EEF6FF"><a href="#key-capabilities">Key Capabilities</a></td>
+<td bgcolor="#F3F4F6"><a href="#how-it-works">How It Works</a></td>
+<td bgcolor="#EEF6FF"><a href="#document-to-quiz-intelligence">Document-to-Quiz Intelligence</a></td>
+</tr>
+<tr>
+<td bgcolor="#EEF6FF"><a href="#skill-gap-intelligence">Skill-Gap Intelligence</a></td>
+<td bgcolor="#F3F4F6"><a href="#platform-architecture">Platform Architecture</a></td>
+<td bgcolor="#EEF6FF"><a href="#complete-repository-working-flow">Complete Repository Working Flow</a></td>
+<td bgcolor="#F3F4F6"><a href="#technology-stack">Technology Stack</a></td>
+</tr>
+<tr>
+<td bgcolor="#F3F4F6"><a href="#repository-structure">Repository Structure</a></td>
+<td bgcolor="#EEF6FF"><a href="#application-routes">Application Routes</a></td>
+<td bgcolor="#F3F4F6"><a href="#getting-started">Getting Started</a></td>
+<td bgcolor="#EEF6FF"><a href="#local-api-access">Local API Access</a></td>
+</tr>
+<tr>
+<td bgcolor="#EEF6FF"><a href="#docker">Docker</a></td>
+<td bgcolor="#F3F4F6"><a href="#testing--build">Testing &amp; Build</a></td>
+<td bgcolor="#EEF6FF"><a href="#deployment">Deployment</a></td>
+<td bgcolor="#F3F4F6"><a href="#security--data-handling">Security &amp; Data Handling</a></td>
+</tr>
+<tr>
+<td bgcolor="#F3F4F6"><a href="#design-principles">Design Principles</a></td>
+<td bgcolor="#EEF6FF"><a href="#project-status">Project Status</a></td>
+<td bgcolor="#F3F4F6"><a href="#useful-links">Useful Links</a></td>
+<td bgcolor="#EEF6FF"><a href="#contributing">Contributing</a></td>
+</tr>
+<tr>
+<td bgcolor="#EEF6FF"><a href="#license">License</a></td>
+<td bgcolor="#F3F4F6"><a href="#government--official-statistics">Government</a></td>
+<td bgcolor="#EEF6FF"><a href="#industry--analytics--professional-development">Industry</a></td>
+<td bgcolor="#F3F4F6"><a href="#academia--curriculum--employability">Academia</a></td>
+</tr>
+</table>
 
-[![Specialized Tracks](https://img.shields.io/badge/Specialized%20Tracks-B8C4CE?style=flat-square)](#specialized-tracks) [![Key Capabilities](https://img.shields.io/badge/Key%20Capabilities-B8C4CE?style=flat-square)](#key-capabilities) [![How It Works](https://img.shields.io/badge/How%20It%20Works-B8C4CE?style=flat-square)](#how-it-works) [![Document-to-Quiz Intelligence](https://img.shields.io/badge/Document%2Dto%2DQuiz%20Intelligence-B8C4CE?style=flat-square)](#document-to-quiz-intelligence)
-
-[![Skill-Gap Intelligence](https://img.shields.io/badge/Skill%2DGap%20Intelligence-9FBFD6?style=flat-square)](#skill-gap-intelligence) [![Platform Architecture](https://img.shields.io/badge/Platform%20Architecture-9FBFD6?style=flat-square)](#platform-architecture)
-
-[![Complete Repository Working Flow](https://img.shields.io/badge/Complete%20Repository%20Working%20Flow-9FBFD6?style=flat-square)](#complete-repository-working-flow) [![Technology Stack](https://img.shields.io/badge/Technology%20Stack-9FBFD6?style=flat-square)](#technology-stack)
-
-[![Repository Structure](https://img.shields.io/badge/Repository%20Structure-C7CDD3?style=flat-square)](#repository-structure) [![Application Routes](https://img.shields.io/badge/Application%20Routes-C7CDD3?style=flat-square)](#application-routes) [![Getting Started](https://img.shields.io/badge/Getting%20Started-C7CDD3?style=flat-square)](#getting-started) [![Local API Access](https://img.shields.io/badge/Local%20API%20Access-C7CDD3?style=flat-square)](#local-api-access)
-
-[![Docker](https://img.shields.io/badge/Docker-D8DEE3?style=flat-square)](#docker) [![Testing & Build](https://img.shields.io/badge/Testing%20%26%20Build-D8DEE3?style=flat-square)](#testing--build) [![Deployment](https://img.shields.io/badge/Deployment-D8DEE3?style=flat-square)](#deployment) [![Security & Data Handling](https://img.shields.io/badge/Security%20%26%20Data%20Handling-D8DEE3?style=flat-square)](#security--data-handling)
-
-[![Design Principles](https://img.shields.io/badge/Design%20Principles-E3E7EA?style=flat-square)](#design-principles) [![Project Status](https://img.shields.io/badge/Project%20Status-E3E7EA?style=flat-square)](#project-status) [![Useful Links](https://img.shields.io/badge/Useful%20Links-E3E7EA?style=flat-square)](#useful-links) [![Contributing](https://img.shields.io/badge/Contributing-E3E7EA?style=flat-square)](#contributing)
-
-[![License](https://img.shields.io/badge/License-CBD2D8?style=flat-square)](#license)
 ---
 
 ## Overview
