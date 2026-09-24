@@ -778,7 +778,7 @@ Security features should not automatically be interpreted as a legal or regulato
 |---|---|
 | **Live Application** | https://stat-skill-ai-psi.vercel.app |
 | **GitHub Repository** | https://github.com/syedroshanriyan/stat-skill-SIH-2026 |
-| **Smart India Hackathon** | https://www.sih.gov.in/ |
+| **Smart India Hackathon** | https://www.sih.gov.in/sih2026PS [PS- SIH26101] |
 
 ---
 
